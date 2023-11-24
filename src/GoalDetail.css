@@ -1,4 +1,4 @@
-.about-container {
+.goal-detail-container {
   max-width: 800px;
   margin: 50px auto;
   padding: 40px;
@@ -14,32 +14,24 @@ h1 {
   margin-bottom: 20px;
 }
 
-.about-content {
-  margin-top: 20px;
+.tips-section,
+.roadmap-section {
+  margin-top: 30px;
 }
 
-.about-content p {
+h2 {
   color: #555;
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.about-content ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 15px;
-}
-
-.about-content li {
-  color: #777;
-  font-size: 1.1em;
+  font-size: 1.8em;
   margin-bottom: 10px;
 }
 
-.about-content ul:before {
-  content: "✓";
-  color: #3498db;
-  font-size: 1.2em;
-  margin-right: 5px;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: #777;
+  font-size: 1.1em;
+  margin-bottom: 8px;
 }

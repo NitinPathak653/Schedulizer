@@ -1,5 +1,3 @@
-// TaskForm.js
-
 import React, { useState } from "react";
 
 const TaskForm = ({ onAddTask }) => {
@@ -17,7 +15,6 @@ const TaskForm = ({ onAddTask }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check if both task and timing are provided
     if (task.trim() === "" || timing.trim() === "") {
       alert("Please provide both task name and timing.");
       return;

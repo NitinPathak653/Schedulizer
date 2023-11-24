@@ -1,5 +1,3 @@
-// Dashboard.js
-
 import React, { useState } from "react";
 import TaskForm from "./TaskForm";
 import "./Dashboard.css";
